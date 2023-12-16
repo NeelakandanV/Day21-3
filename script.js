@@ -9,7 +9,7 @@ formCont.addEventListener('submit',(e)=>{
     let pricy = priCon.value;
 
     async function anime(){
-        let AniUrl = fetch(`http://www.boredapi.com/api/activity?type=${inter}&price=${pricy}`)
+        let AniUrl = fetch(`https://www.boredapi.com/api/activity?type=${inter}&price=${pricy}`)
         let aniPro = await AniUrl
         let aniRes = aniPro.json()
         let AniOut = await aniRes
