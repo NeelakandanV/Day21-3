@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(180, 216, 216);
+}
+
+.mainParent{
+    margin: auto;
+    background-color: rgb(165, 206, 103);
+}
+
+.titleCon{
+    text-align: center;
+}
+
+.ideaCon{
+    background-color: rgb(120, 215, 188);
+}
